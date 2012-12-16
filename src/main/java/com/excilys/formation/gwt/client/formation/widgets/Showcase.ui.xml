@@ -1,0 +1,26 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" 
+	xmlns:sl="urn:import:com.excilys.formation.gwt.client.slider.slides" 
+	>
+
+	<g:HTMLPanel addStyleNames="slide">
+		<div class="header">
+			<div class="ebiIcon" />
+			Showcase
+		</div>
+               <div class="learningIcon" />
+        <div class="section">
+			<sl:DelayedFrame ui:field="visibleWidget"
+	url="http://gwt.google.com/samples/Showcase/Showcase.html" height="500px"
+	width="830px" />
+		</div>
+		
+		<div class="footer">
+			<div ui:field="pagination" class="footerPagination">Page 4</div>
+			<div class="footerTitle">Parlez–vous GWT – © eBusiness Information - Groupe Excilys</div>
+			<div ui:field="date" class="footerDate">mai 2011</div>
+			<div class="excilysIcon" />
+		</div>
+	</g:HTMLPanel>
+</ui:UiBinder>

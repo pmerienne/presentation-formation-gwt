@@ -1,0 +1,46 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+	<div>
+		<div ui:field="notes">	
+			<pre class="details">
+* Problème : 1 service = 1 servlet
+      o Complexifie le web.xml
+      o Intégration du contexte Spring complexe
+* Plusieurs solutions existent, la plus simple/élégante est l’utilisation du framework gwtrpc-spring (http://code.google.com/p/gwtrpc-spring/)
+      o RemoteServiceDispatcher : Servlet dispatchant les appels vers les services correspondant
+      o Les services n’hérite plus de RemoteServiceServlet
+      o Attention, n’est pas compatible avec toutes les versions de GWT			
+			</pre>
+		</div>
+		<div class="header">
+			<div class="ebiIcon" />
+			Intégration à Spring
+		</div>
+               <div class="learningIcon" />
+        <div class="section">
+			<ul class="summary">
+				<li>
+					Problème : 1 service = 1 servlet
+					<ul>
+						<li>web.xml lourd</li>
+						<li>Intégration du contexte spring complexe</li>
+					</ul>
+				</li>
+				<li>
+					Utilisation de gwtrpc-spring
+					<br />
+					(
+					<a href="http://code.google.com/p/gwtrpc-spring/">http://code.google.com/p/gwtrpc-spring/</a>
+					)
+				</li>
+			</ul>
+		</div>
+		
+		<div class="footer">
+			<div ui:field="pagination" class="footerPagination">Page 7</div>
+			<div class="footerTitle">Parlez–vous GWT – © eBusiness Information - Groupe Excilys</div>
+			<div ui:field="date" class="footerDate">mai 2011</div>
+			<div class="excilysIcon" />
+		</div>
+	</div>
+</ui:UiBinder>

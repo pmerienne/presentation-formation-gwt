@@ -1,0 +1,23 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder
+    xmlns:ui="urn:ui:com.google.gwt.uibinder"
+    xmlns:g='urn:import:com.google.gwt.user.client.ui'
+    >
+    
+    <ui:style>
+    	.space {
+    		margin: 20px;
+    	}
+    </ui:style>
+    
+    <g:HTMLPanel>
+        <div>
+        
+            <div class="{style.space}">Intéressé(e) ? Pour en savoir plus, inscrivez-vous à la formation GWT !</div>
+            
+            <div class="{style.space}">Envoyez un mail à <a href="mailto:training@excilys.com">training@excilys.com</a> ou appelez le <strong>01 41 24 43 20</strong>.</div>   
+                  
+            <div class="{style.space}"><g:Button ui:field="closeButton">Non merci</g:Button></div>
+        </div>
+    </g:HTMLPanel>
+</ui:UiBinder>

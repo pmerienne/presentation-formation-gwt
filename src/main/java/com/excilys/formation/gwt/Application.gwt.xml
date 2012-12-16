@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='application'>
+    <inherits name="com.google.gwt.user.theme.standard.Standard" /> 
+	<inherits name='com.google.gwt.user.User' />
+	<inherits name='com.alexgorbatchev.syntaxhighlighter.Highlighter'/>
+    
+	<source path='client' />
+	
+	<set-property name="syntaxhighlighter.theme" value="Eclipse"/>
+	<entry-point class='com.excilys.formation.gwt.client.formation.FormationGwt' />
+</module>

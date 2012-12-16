@@ -1,0 +1,57 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+
+	<div>
+		<div ui:field="notes">
+			<pre class="details">
+A ne pas trop approfondir sauf si on a de l’expérience.
+* Flex/Air
+      o Avantages : Contenu multimédia, Widget de haut niveaux, Web-Socket
+      o Inconvénients : Nécessite le plugin flash (non dispo sous IPhone par exemple), Technologie non Open-Source, Test très (très) lent à cause de la compilation, IDE en mousse
+      o Ne répondent pas forcément au même besoin métier
+      o A utiliser ensemble
+* Wicket
+      o Avantages : Simplicité du développement, Documentation légère
+      o Inconvénients :
+      o Wicket plus adapté à des sites de contenus (moins RIA)
+      o A utiliser ensemble
+* JQuery
+      o Avantages : Rapide à développer
+      o Inconvénients : Connaissance javascript, débogage impossible, fuites mémoires, ...
+* ZK
+      o Avantages : Compilation rapide, développement simplifié, Widgets de haut niveau
+      o Inconvénients : Peu utilisé, Codage en Javascript
+			</pre>
+		</div>
+		<div class="header">
+			<div class="ebiIcon" />
+			Concurrents
+		</div>
+               <div class="learningIcon" />
+        <div class="section">
+			<ul class="summary">
+				<li>Flex / Air
+					<ul>
+						<li><span class="ebiztag">+</span> Contenu <strong>multimédia</strong>, nombreux <strong>widgets</strong>, <strong>Web-Socket</strong></li>
+						<li><span class="ebiztag">-</span> Plugin <strong>Flash</strong> (quid iPhone/iPad ?)</li>
+						<li>Besoins différents, possibilité d'intégrer Flex et GWT</li>
+					</ul>
+				</li>
+				<li>jQuery
+					<ul>
+						<li><span class="ebiztag">+</span> Prise en main <strong>rapide</strong>, léger, cross-browser</li>
+						<li><span class="ebiztag">-</span> <strong>Maintenance</strong></li>
+					</ul>
+				</li>
+				<li>Autres suggestions ?</li>
+			</ul>
+		</div>
+
+		<div class="footer">
+			<div ui:field="pagination" class="footerPagination">Page 8</div>
+			<div class="footerTitle">Parlez–vous GWT – © eBusiness Information - Groupe Excilys</div>
+			<div ui:field="date" class="footerDate">mai 2011</div>
+			<div class="excilysIcon" />
+		</div>
+	</div>
+</ui:UiBinder>
