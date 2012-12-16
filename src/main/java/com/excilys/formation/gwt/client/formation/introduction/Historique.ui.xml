@@ -23,16 +23,20 @@ o UIBinder, Code splitting, ...
 					Mai 2006
 				</li>
 				<li>
-					<span class="nicetag">GWT 2.3</span>
-					Mai 2011 (tout chaud !)
+					<span class="nicetag">GWT 2.0</span>
+					Décembre 2009
+				</li>
+				<li>
+					<span class="nicetag">GWT 2.5</span>
+					Octobre 2012 (tout chaud !)
 				</li>
 				<li>
 					<strong>Évolutions</strong>
 					<ul>
 						<li>Outillage</li>
+						<li>Hosted Mode -> Dev Mode -> Super Dev Mode</li>
 						<li>Best practices + UI en XML</li>
-						<li>Google APIs</li>
-						<li>Local Storage</li>
+						<li>Optimisation compilateur</li>
 					</ul>
 				</li>
 			</ul>

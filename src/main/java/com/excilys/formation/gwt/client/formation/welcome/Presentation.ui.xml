@@ -26,14 +26,14 @@
 			<p>Basé sur <a href="http://gwthtml5.appspot.com">http://gwthtml5.appspot.com</a></p>
 			</div>
 			<div class="{style.space}">
-			<h1>Hébergé sur AppEngine</h1>
-			<p>Par ici : <a href="http://excilys-gwt-slides.appspot.com">http://excilys-gwt-slides.appspot.com</a></p>
+			<h1>Hébergé sur Cloudfoundry</h1>
+			<p>Par ici : <a href="http://formation-gwt.cloudfoundry.com">http://formation-gwt.cloudfoundry.com</a></p>
 			</div>
 			<div class="{style.space}">
 			<h1>Forkez moi sur Github!</h1>
 			<div class="{style.octocat}" />
 			<p>
-			<a href="https://github.com/pyricau/slides-formation-gwt">https://github.com/pyricau/slides-formation-gwt</a>
+			<a href="https://github.com/pmerienne/presentation-formation-gwt">https://github.com/pmerienne/presentation-formation-gwt</a>
 			</p>
 			</div>
 

@@ -29,6 +29,11 @@ public class OutilsAvances extends Chapter {
         Liste binder = GWT.create(Liste.class);
     }
 
+    @UiTemplate("MGWT.ui.xml")
+    interface MGWT extends UiBinder<Widget, VisibleSlideNotes> {
+        MGWT binder = GWT.create(MGWT.class);
+    }
+
     @UiTemplate("Visualization.ui.xml")
     interface Visualization extends UiBinder<Element, ElementSlideNotes> {
         Visualization binder = GWT.create(Visualization.class);
@@ -64,13 +69,14 @@ public class OutilsAvances extends Chapter {
         addNotesSlide(Titre.binder);
         addNotesSlide(Log.binder);
         addSlide(Liste.binder);
+        addVisibleNotesSlide(MGWT.binder);
         addNotesSlide(Visualization.binder);
         addVisibleNotesSlide(ExtGWT.binder);
         addVisibleNotesSlide(SmartGWT.binder);
         addWidgetNotesSlide(GoogleGin.binder);
         addVisibleNotesSlide(GwtDnd.binder);
-        addSlide(Plan.binder);
         addNotesSlide(Spring.binder);
+        addSlide(Plan.binder);
     }
 
 }
